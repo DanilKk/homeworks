@@ -10,7 +10,7 @@ console.log(union("func", "tion"));
 const stringArray = ["this", " ", "text", " ", "should", " ", "be", " ", "united"]
 
 function arrayToString(arr) {
-    var stringToRead = "";
+    let stringToRead = "";
     arr.forEach(stringFromArray => {
         stringToRead = stringToRead + stringFromArray;
     });
